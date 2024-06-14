@@ -1,0 +1,98 @@
+[12-Apr-2024 08:19:33 Asia/Jakarta] PHP Warning:  require(/home/astj9531/public_html/mycrypto.astodigi.com/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:19:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/astj9531/public_html/mycrypto.astodigi.com/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/astj9531/public_html/mycrypto.astodigi.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:22:41 Asia/Jakarta] PHP Warning:  require(/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php): Failed to open stream: No such file or directory in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:22:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/astj9531/public_html/mycrypto.astodigi.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:23:36 Asia/Jakarta] PHP Warning:  require(/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php): Failed to open stream: No such file or directory in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:23:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/astj9531/public_html/mycrypto.astodigi.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:25:00 Asia/Jakarta] PHP Warning:  require(/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php): Failed to open stream: No such file or directory in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:25:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/astj9531/public_html/mycrypto.astodigi.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:25:03 Asia/Jakarta] PHP Warning:  require(/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php): Failed to open stream: No such file or directory in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:25:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/astj9531/public_html/mycrypto.astodigi.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:25:04 Asia/Jakarta] PHP Warning:  require(/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php): Failed to open stream: No such file or directory in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:25:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/astj9531/public_html/mycrypto.astodigi.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:25:04 Asia/Jakarta] PHP Warning:  require(/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php): Failed to open stream: No such file or directory in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:25:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/astj9531/public_html/mycrypto.astodigi.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:25:04 Asia/Jakarta] PHP Warning:  require(/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php): Failed to open stream: No such file or directory in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:25:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/astj9531/public_html/mycrypto.astodigi.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:25:05 Asia/Jakarta] PHP Warning:  require(/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php): Failed to open stream: No such file or directory in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:25:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/astj9531/public_html/mycrypto.astodigi.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:25:05 Asia/Jakarta] PHP Warning:  require(/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php): Failed to open stream: No such file or directory in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:25:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/astj9531/public_html/mycrypto.astodigi.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:27:28 Asia/Jakarta] PHP Warning:  require(/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php): Failed to open stream: No such file or directory in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:27:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/astj9531/public_html/mycrypto.astodigi.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:27:40 Asia/Jakarta] PHP Warning:  require(/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php): Failed to open stream: No such file or directory in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:27:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/astj9531/public_html/mycrypto.astodigi.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:28:07 Asia/Jakarta] PHP Warning:  require(/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php): Failed to open stream: No such file or directory in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:28:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/astj9531/public_html/mycrypto.astodigi.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:28:09 Asia/Jakarta] PHP Warning:  require(/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php): Failed to open stream: No such file or directory in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:28:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/astj9531/public_html/mycrypto.astodigi.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:28:26 Asia/Jakarta] PHP Warning:  require(/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php): Failed to open stream: No such file or directory in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:28:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/astj9531/public_html/mycrypto.astodigi.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:28:37 Asia/Jakarta] PHP Warning:  require(/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php): Failed to open stream: No such file or directory in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:28:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/astj9531/public_html/mycrypto.astodigi.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:30:24 Asia/Jakarta] PHP Warning:  require(/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php): Failed to open stream: No such file or directory in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:30:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/astj9531/public_html/mycrypto.astodigi.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:33:39 Asia/Jakarta] PHP Warning:  require(/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php): Failed to open stream: No such file or directory in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:33:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/astj9531/public_html/mycrypto.astodigi.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:37:09 Asia/Jakarta] PHP Warning:  require(/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php): Failed to open stream: No such file or directory in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[12-Apr-2024 08:37:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/astj9531/public_html/mycrypto.astodigi.com/../laravel/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/astj9531/public_html/mycrypto.astodigi.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/astj9531/public_html/mycrypto.astodigi.com/index.php on line 13
+[17-May-2024 16:40:23 Asia/Singapore] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home3/demoweb1/mypreorder.online/laravel/vendor/composer/platform_check.php on line 24
+[17-May-2024 16:41:57 Asia/Singapore] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home3/demoweb1/mypreorder.online/laravel/vendor/composer/platform_check.php on line 24
+[17-May-2024 16:45:55 Asia/Singapore] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home3/demoweb1/mypreorder.online/laravel/vendor/composer/platform_check.php on line 24
