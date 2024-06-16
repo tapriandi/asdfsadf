@@ -15,6 +15,8 @@ use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
+use function PHPUnit\Framework\isEmpty;
+
 class HistoryResource extends Resource
 {
     protected static ?string $model = History::class;
@@ -33,7 +35,31 @@ class HistoryResource extends Resource
 
         return round($number, 2) . " " . $abbreviations[$index];
     }
-    
+
+    private function handleFail($value)
+    {
+        if ($value == '11111') {
+            return 'FAIL';
+        } elseif (!empty($value)) {
+            return '$' . rtrim(rtrim($value, '0'), '.');
+        } else {
+            return 'OPEN';
+        }
+    }
+
+    private function handleResult($buy, $sell, $fail)
+    {
+        if ($fail != '11111' && $buy < $sell) {
+            return 'PROFIT';
+        } elseif ($fail != '11111' && $buy > $sell) {
+            return 'LOSS';
+        } elseif ($fail == '11111') {
+            return 'FAIL';
+        } else {
+            return 'ONGOING';
+        }
+    }
+
     public static function form(Form $form): Form
     {
         return $form
@@ -53,31 +79,62 @@ class HistoryResource extends Resource
                     ->prefix('$')
                     ->sortable()
                     ->searchable()
-                    ->color('primary')
+                    ->color('info')
                     ->formatStateUsing(fn ($state) => rtrim(rtrim($state, '0'), '.')),
                 TextColumn::make('timeframe')
                     ->label('TF')
                     ->suffix('H')
                     ->sortable()
                     ->searchable()
-                    ->color('success')
+                    ->colors([
+                        'success' => '4',
+                        'warning' => '24'
+                    ])
                     ->formatStateUsing(fn ($state) => rtrim(rtrim($state, '0'), '.')),
                 TextColumn::make('volume')
                     ->sortable()
                     ->searchable()
+                    ->formatStateUsing(fn ($state) => (new self)->formatNumber($state)),
+
+                // Custom Column to show result based on comparison
+                TextColumn::make('status')
+                    ->label('Status')
+                    ->getStateUsing(function ($record) {
+                        return (new self)->handleResult($record->price_hit_25, $record->price_close, $record->price_close);
+                    })
+                    ->colors([
+                        'success' => 'PROFIT',
+                        'danger' => 'LOSS',
+                        'primary' => 'ONGOING',
+                        'gray' => 'FAIL',
+                    ]),
+
+                TextColumn::make('price_hit_25')
+                    ->label('Price Buy')
+                    ->prefix('$')
+                    ->searchable()
+                    ->sortable()
                     ->formatStateUsing(fn ($state) => rtrim(rtrim($state, '0'), '.')),
+                TextColumn::make('time_hit_25')
+                    ->label('Time Buy')
+                    ->dateTime()
+                    ->sortable(),
+
                 TextColumn::make('price_high')
+                    ->label('Highest')
                     ->prefix('$')
                     ->sortable()
                     ->searchable()
-                    ->color('success')
                     ->formatStateUsing(fn ($state) => rtrim(rtrim($state, '0'), '.')),
-                // TextColumn::make('exhange')
-                //     ->prefix('$')
-                //     ->sortable()
-                //     ->searchable()
-                //     ->color('primary')
-                //     ->formatStateUsing(fn ($state) => rtrim(rtrim($state, '0'), '.')),
+
+                TextColumn::make('price_close')
+                    ->label('Price Sell')
+                    ->sortable()
+                    ->searchable()
+                    ->formatStateUsing(fn ($state) => (new self)->handleFail($state)),
+                TextColumn::make('time_price_close')
+                    ->label('Time Sell')
+                    ->sortable(),
 
                 TextColumn::make('price_hit_20')
                     ->label('Hit 20%')
@@ -89,27 +146,27 @@ class HistoryResource extends Resource
                     ->label('Time 20%')
                     ->dateTime()
                     ->sortable(),
+                TextColumn::make('time_hit_target_10')
+                    ->label('Time Target 10%')
+                    ->dateTime()
+                    ->sortable(),
+                TextColumn::make('time_hit_target_20')
+                    ->label('Time Target 20%')
+                    ->dateTime()
+                    ->sortable(),
+                TextColumn::make('time_hit_target_30')
+                    ->label('Time Target 30%')
+                    ->dateTime()
+                    ->sortable(),
+                TextColumn::make('time_hit_target_40')
+                    ->label('Time Target 40%')
+                    ->dateTime()
+                    ->sortable(),
+                TextColumn::make('time_hit_target_50')
+                    ->label('Time Target 50%')
+                    ->dateTime()
+                    ->sortable(),
 
-                TextColumn::make('price_hit_25')
-                    ->label('Hit 25%')
-                    ->prefix('$')
-                    ->searchable()
-                    ->sortable()
-                    ->formatStateUsing(fn ($state) => rtrim(rtrim($state, '0'), '.')),
-                TextColumn::make('time_hit_25')
-                    ->label('Time 25%')
-                    ->dateTime()
-                    ->sortable(),
-                TextColumn::make('time_price_close')
-                    ->label('Time Sell')
-                    ->dateTime()
-                    ->sortable(),
-                TextColumn::make('price_close')
-                    ->prefix('$')
-                    ->sortable()
-                    ->searchable()
-                    ->color('primary')
-                    ->formatStateUsing(fn ($state) => rtrim(rtrim($state, '0'), '.')),
             ])
             ->defaultSort('created_at', 'desc')
             ->filters([
@@ -119,9 +176,9 @@ class HistoryResource extends Resource
                 // Tables\Actions\EditAction::make(),
             ])
             ->bulkActions([
-                Tables\Actions\BulkActionGroup::make([
-                    Tables\Actions\DeleteBulkAction::make(),
-                ]),
+                // Tables\Actions\BulkActionGroup::make([
+                //     Tables\Actions\DeleteBulkAction::make(),
+                // ]),
             ]);
     }
 
