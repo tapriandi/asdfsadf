@@ -1,0 +1,114 @@
+.fixed {
+  position: fixed;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+/* header */
+.header {
+  z-index: 100;
+  transition: background-color 0.3s ease;
+}
+.header.scrolled {
+  background-color: #ffffffcd;
+}
+
+/* body */
+.body {
+  z-index: 1;
+  padding: 160px 20px 60px 20px;
+}
+.body-title {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+/* list coin */
+.list-coin {
+  border: 1px solid #00000020;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background: #00000010;
+}
+
+.list-coin:hover {
+  transition-delay: 0.1s;
+  background: #00000030;
+}
+
+/* search */
+.button-search {
+  color: black;
+  background: #00000010;
+  height: 40px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.button-search:hover {
+  background: #00000030;
+}
+
+.input-search {
+  color: black;
+  background: #00000010;
+  height: 40px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.3s;
+}
+.input-search:hover {
+  background: #00000030;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 10px 20px;
+  }
+  .header svg {
+    height: 2.2rem;
+  }
+  .header input,
+  .header button {
+    font-size: 14px;
+    background-color: #fdfdfdd5;
+  }
+  .input-search,
+  .button-search {
+    height: 32px;
+    padding: 0 10px;
+  }
+  .input-search:hover,
+  .button-search:hover {
+    background-color: #fdfdfdba;
+  }
+  .header.scrolled {
+    background-color: #01010180;
+  }
+
+  /* body */
+  .body {
+    padding: 100px 15px 60px 15px;
+  }
+  .body-title {
+    font-size: 1.8rem;
+  }
+
+  /* list coin */
+  .list-coin {
+    font-size: 12px;
+    padding: 4px 10px;
+  }
+
+  .list-coin:hover {
+    transition-delay: 0.1s;
+    background: #00000030;
+  }
+}
